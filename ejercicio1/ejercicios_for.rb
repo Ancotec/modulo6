@@ -12,6 +12,7 @@
 
 #1.PARES E IMPARES
 
+# tiempo_inicial =Time.now
 # texto = ""
 # puts "Ingrese numero : "
 # num = gets.chomp.to_i
@@ -35,6 +36,9 @@
 #     end
 # end
 # puts texto
+# tiempo_final =Time.now
+# resultado = tiempo_final - tiempo_inicial
+# puts"#{resultado} s"
 
 #2. SORTEO
 
@@ -53,6 +57,8 @@
 # end
 
 #3 FACTORIAL
+
+system("clear")
 factorial = 0
 acum = 1
 operacion =""
@@ -64,7 +70,6 @@ for i in 1..factorial
      operacion += "#{i} * "
     else
      operacion += "#{i} = "
-    break
     end
 end
 puts " El factorial de : #{factorial}"
