@@ -1,3 +1,0 @@
-def dividir_entre_digitos
-
-end
