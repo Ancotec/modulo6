@@ -152,8 +152,6 @@ def capicua
     puts "ingrese un numero"
     digitos=gets.to_s
     numerosreves=digitos.reverse
-    #digitos = digitos.to_i
-    #numerosreves = numerosreves.to_i
     if digitos.to_i == numerosreves.to_i
         puts "#{numerosreves} CAPICUA"
     else
