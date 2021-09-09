@@ -84,7 +84,7 @@ def menu
     
     opcion=0
     while opcion!=4
-        system("clear")
+        #system("clear")
         puts "Opciones"
         puts "1.- Banco"
         puts "2.- Suma Interior"
@@ -147,7 +147,19 @@ gets
 end
 
 def capicua
-    
+    numerosreves=0
+    digitos=0
+    puts "ingrese un numero"
+    digitos=gets.to_s
+    numerosreves=digitos.reverse
+    #digitos = digitos.to_i
+    #numerosreves = numerosreves.to_i
+    if digitos.to_i == numerosreves.to_i
+        puts "#{numerosreves} CAPICUA"
+    else
+        puts numerosreves
+    end
+gets
 end
 
 menu
